@@ -8,13 +8,13 @@ public class Triangle15 {
         while (i <= n) {
             //System.out.print("[i" + i +"]");
             int j = 0;
-            while (j < i) {
+            while (j < n - i + 1) {
                 System.out.print("*");
                 j++;
         }
         System.out.println();
         i++;
-     }
-     sc.close();
+        }
+        sc.close();
     }
 }
